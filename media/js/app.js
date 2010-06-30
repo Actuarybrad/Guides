@@ -35,7 +35,7 @@ App.compareStore = Ext.extend(Ext.data.JsonStore, {
     constructor: function() {
         App.compareStore.superclass.constructor.call(this, {
             storeId: 'cmpStore',
-            proxy: new Ext.data.HttpProxy({url:'/guides/home/index.php/ajaxy', method:'POST'}),
+            proxy: new Ext.data.HttpProxy({url:'/guides/ajax', method:'POST'}),
             root: 'results',           
             remoteSort: true,
             sortInfo: {

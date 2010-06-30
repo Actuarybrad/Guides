@@ -17,7 +17,8 @@ a{
   outline:none;
   font-size:12px;
   text-decoration:none;
-  color:#46474e;
+  /*color:#46474e;*/
+  color:#5B5C64;
 }
 
 #headerBox{
@@ -85,7 +86,8 @@ span.largeyd{
 
 span.highLight{
   /* color:#26242d; */
-  color:#595668; 
+  /* color:#595668;  */
+  color:#403D4E;
   font-family:Arial;
   font-weight:500;
 }
@@ -139,7 +141,8 @@ li.active{
 
 a.active{ 
   /* color:#634e68; */
-  color:#595668; 
+  /* color:#595668; */ 
+  color:#514e5f; 
 }
 
 a.linkOver{
@@ -164,7 +167,7 @@ ul.msd{
   background-color:#FFF;
   height:25px;
   width:205px;
-  margin-top:35px;
+  margin-top:40px;
 }
 
 #Review{
@@ -182,7 +185,7 @@ ul.msd{
   background-color:#FFF;
   height:25px;
   width:205px;
-  margin-top:28px;
+  margin-top:40px;
 }
 
 #Guides{
@@ -191,7 +194,7 @@ ul.msd{
   background-color:#FFF;
   height:25px;
   width:205px;
-  margin-top:28px;
+  margin-top:40px;
 }
 
 ul.msd a{
@@ -221,13 +224,16 @@ span.footy{
   text-align:center;
   font-family:Arial,Verdana;
   font-weight:600;  
-  color:#6C6880;
+  /* color:#6C6880; */
+  color:#514e5f;
 }
 /*--------FormWiz---------*/
 
 .x-fieldset legend{
   /*color:#837A9E;*/
-  color:#75718C;
+  /* color:#75718C; */
+  /* color:#595668; */
+  color:#666377;
   font-weight:bold;
   font-family:Arial,Verdana;
   font-size:18px;
@@ -239,7 +245,7 @@ span.footy{
 }
 
 .x-form fieldset{
-  border-color:#EAE9EB;
+  border-color:#EAEAEA;
  /* border:6px solid #f1f1f3; */
   /* border:none; */
 }
@@ -265,7 +271,8 @@ span.footy{
 }
 
 #steps li.current{
-  color:#68647B; 
+  /* color:#68647B;  */
+  color:#595668; 
 }
 
 td.tdButton{
