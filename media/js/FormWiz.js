@@ -359,9 +359,9 @@ App.ButtonPanel = Ext.extend(Ext.Container, {
                 Ext.get('leftSidebar').select('li.bullet').each(function(a) {
                  Ext.get(a).down('a').removeClass('active');
                 });     
-                }      
+                }
               },{
-              xtype: 'spacer'              
+              xtype: 'spacer'
               },{
               xtype: 'button',  
               cellCls: 'tdButton',             
@@ -373,15 +373,15 @@ App.ButtonPanel = Ext.extend(Ext.Container, {
         App.ButtonPanel.superclass.initComponent.apply(this, arguments);
     },
     cardNav: function(incr) {
-      var l = Ext.getCmp('formCard').getLayout();
-    	var i = l.activeItem.id.split('card-')[1];
-    	var next = parseInt(i) + incr;     
-    	l.setActiveItem(next);
-      Ext.getCmp('formCard').getEl().slideIn('r', {easing:'easeOut',duration:.6});
-      Ext.getCmp('prev').setVisible(next>0);
-      Ext.getCmp('next').setVisible(next<5);
-      Ext.getCmp('submit').setVisible(next==5);
-      Ext.get("steps").select("li").each(function(h) {
+		var l = Ext.getCmp('formCard').getLayout();
+		var i = l.activeItem.id.split('card-')[1];
+		var next = parseInt(i) + incr;
+		l.setActiveItem(next);
+		Ext.getCmp('formCard').getEl().slideIn('r', {easing:'easeOut',duration:.6});
+		Ext.getCmp('prev').setVisible(next>0);
+		Ext.getCmp('next').setVisible(next<5);
+		Ext.getCmp('submit').setVisible(next==5);
+		Ext.get("steps").select("li").each(function(h) {
             if (h.id != 'step-'+next) {
                 Ext.get(h).removeClass('current');
             } else {
@@ -410,7 +410,7 @@ App.radioWiz = Ext.extend(Ext.Panel, {
     xtype: 'box',
     id: 'stepBox',
     flex:1,
-    html:'<ul id="steps"><li id="step-0" class="current">Step 1<span>Location</span></li><li id="step-1">Step 2<span>Deductible</span></li><li id="step-2">Step3<span>Coverage</span></li><li id="step-3">Step 4<span>Structure</span></li><li id="step-4">Step 5<span>Distance</span></li><li id="step-5">Step 6<span>Year</span></li></ul>'
+    html:'<ul id="steps"><li id="step-0" class="current">Step 1<span>Location</span></li><li id="step-1">Step 2<span>Deductible</span></li><li id="step-2">Step3<span>Coverage</span></li><li id="step-3">Step 4<span>Structure</span></li><li id="step-4">Step 5<span>Distance</span></li><li id="step-5">Step 6<span>Year Built</span></li></ul>'
   },{
     xtype: 'formwiz',
     height: 460

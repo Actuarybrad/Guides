@@ -20,9 +20,9 @@ Ext.onReady(function(){
 <div id="wrapper">
   <div id="headerBox"></div>  
   <div id="leftSidebar">
-  <?php $attrs1=array('id' => 'Selections'); echo $sidebar1->render($attrs1); ?>
-  <?php $attrs2=array('id' => 'Resources'); echo $sidebar2->render($attrs2); ?>
-  <?php $attrs3=array('id' => 'Guides'); echo $sidebar3->render($attrs3); ?>
+  <?php echo $sidebar1->render($attrs1); ?>
+  <?php echo $sidebar2->render($attrs2); ?>
+  <?php echo $sidebar3->render($attrs3); ?>
  </div>
   <div id="contentDiv"><?php echo $content ?></div>
   <div id="footerBox"><span class="footy">&#169; Public Regulation Commission</span></div>
