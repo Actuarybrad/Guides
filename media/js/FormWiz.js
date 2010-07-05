@@ -29,26 +29,7 @@ App.FormWiz = Ext.extend(Ext.form.FormPanel, {
             id: 'card-0',
             defaults: {
                 hideLabel: true
-            },
-            /*buttons:[{
-              text: '\xa0&lt; Previous\xa0',
-              id: 'prev',
-              //handler: this.cardNav.createDelegate(this, [-1]),
-              disabled: true
-            },{
-              xtype: 'spacer',
-              flex: 1
-            },{
-              text: 'Submit Selections',
-              disabled: true,
-              id: 'submit'
-            },{
-              xtype: 'spacer',
-              flex: 1
-            },{
-              text: '\xa0\xa0Next &gt;\xa0',
-              id: 'next'
-            }],*/
+            },            
             title: 'Location/City',
             items: [{
                 columns: 2,

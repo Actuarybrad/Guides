@@ -18,7 +18,8 @@ a{
   font-size:12px;
   text-decoration:none;
   /*color:#46474e;*/
-  color:#42434A;
+  color:#4A4B53;
+ /* color:#42434A;*/
 /*color:#5B5C64;*/
 }
 
@@ -35,7 +36,7 @@ a{
 #contentDiv{
   float:left;
   width:724px;
-  height:675px;
+  height:673px;
   margin-top:36px;
   margin-left:14px;
 }
@@ -167,7 +168,7 @@ ul.msd{
   background-color:#FFF;
   height:25px;
   width:205px;
-  margin-top:40px;
+  margin-top:49px;
 }
 
 #Review{

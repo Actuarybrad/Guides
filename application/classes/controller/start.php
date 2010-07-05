@@ -6,5 +6,10 @@
   	{  		
       $this->template->content = View::factory('page/startpage');
   	}  
+	
+	public function action_guide()
+  	{  		
+      $this->template->content = View::factory('page/guide');
+  	}  
   	
   }

@@ -20,7 +20,7 @@
 		  $this->template->attrs2 = array('id' => 'Resources');
 
           $this->template->sidebar2 = Menu::factory()
-          ->add('Consumer Guide', 'resources/consumer')
+          ->add('Consumer Guide', 'start/guide')
           ->add('Cost of Homeowners', 'resources/cost')
           ->add('Homeowners FAQs', 'resources/faq')
           ->add('Market Share Reports', 'resources/market');
@@ -31,8 +31,8 @@
           ->add('Workers Compensation', 'guides/lcm')
           ->add('Condominium Owners', 'guides/condo')
           ->add('Renters', 'guides/rent')
-          ->add('Automobile Single Driver', 'guides/single')
-          ->add('Automobile Household Driver', 'guides/house');
+          ->add('Auto Single Driver', 'guides/single')
+          ->add('Auto Household Driver', 'guides/house');
 
       }  
 }
