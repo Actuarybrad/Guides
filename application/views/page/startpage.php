@@ -11,6 +11,6 @@
 		<p>New resources are regularly added along with updates to existing publications and guides. Please be sure to check back regularly to stay informed on New Mexico insurance issues. Recently added and future consumer resources:</p>
 		<ul class="linkList"><li>Market Share Reports - Check to see if your insurer is authorized to do business in New Mexico.</li><li>Consumer Complaint Comparison Guide.</li><li>Financial condition of your insurance company.</li></ul>
 		<p>To learn more about Workers Compensation Insurance, please visit the links listed under "Workers Compensation Links".</p>
-		<p>To compare premiums offered in New Mexico for other types of insurance, please visit the links under "Premium Comparison Guides".</p>	
+		<p class="last">To compare premiums offered in New Mexico for other types of insurance, please visit the links under "Premium Comparison Guides".</p>	
 <div id="prcLogo"><a href="http://www.nmprc.state.nm.us/index.htm"><img width="225px" height="40px" src="/guides/media/images/prc.jpg" alt="" /></a></div>
 </div>

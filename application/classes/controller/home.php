@@ -10,14 +10,14 @@
           $this->template->scripts = array();
           $this->template->content = '';
 
-          $this->template->attrs1 = array('id' => 'Selections');
+          $this->template->attrs1 = array('id' => 'Homeowners Guide');
 
           $this->template->sidebar1 = Menu::factory()
           ->add('Start Comparison', 'formwiz')
           ->add('Review Selections', 'review')
           ->add('Homeowners', 'start');
 
-		  $this->template->attrs2 = array('id' => 'Resources');
+		  $this->template->attrs2 = array('id' => 'Homeowners Resources');
 
           $this->template->sidebar2 = Menu::factory()
           ->add('Consumer Guide', 'start/guide')
@@ -25,7 +25,7 @@
           ->add('Homeowners FAQs', 'resources/faq')
           ->add('Market Share Reports', 'resources/market');
 
-		  $this->template->attrs3 = array('id' => 'Guides');
+		  $this->template->attrs3 = array('id' => 'Premium Comparison Guides');
 
           $this->template->sidebar3 = Menu::factory()
           ->add('Workers Compensation', 'guides/lcm')

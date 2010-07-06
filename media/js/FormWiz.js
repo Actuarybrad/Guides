@@ -377,7 +377,8 @@ Ext.reg('buttonpanel', App.ButtonPanel);
 
 App.radioWiz = Ext.extend(Ext.Panel, {
   layout: 'vbox',  
-  height:630,  
+  height:615,
+  id: 'allForm',  
   layoutConfig: {
     align: 'stretch',
     pack: 'start'

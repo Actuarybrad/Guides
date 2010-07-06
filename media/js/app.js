@@ -188,7 +188,7 @@ Ext.reg('contactdetail', App.ContactDetail);
 
 App.GridGraph = Ext.extend(Ext.Container, {
   layout: 'vbox',
-  height: 675,
+  height: 698,
   layoutConfig: {
     align: 'stretch',
     pack: 'start'
@@ -200,7 +200,7 @@ App.GridGraph = Ext.extend(Ext.Container, {
     this.items = [{
       xtype: 'comparegrid',
       id: 'gridPanel',
-      height: 476
+      height: 500
     },{
       xtype: 'contactdetail',
       id: 'contactCont',

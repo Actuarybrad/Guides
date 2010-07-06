@@ -8,23 +8,16 @@
 <?php echo HTML::style('media/css/app.css', array('media' => 'screen')), "\n" ?>
 <?php echo HTML::script('media/js/ext.js'), "\n" ?>
 <?php foreach ($scripts as $file) echo HTML::script($file), "\n" ?>
-<script type="text/javascript">
-Ext.onReady(function(){
- Ext.get('leftSidebar').select('li.bullet').each(function(a) {
-     Ext.get(a).down('a').addClassOnOver('linkOver');
-  });
-});
-</script>
 </head>
 <body>
 <div id="wrapper">
   <div id="headerBox"></div>  
   <div id="leftSidebar">
-  <?php echo $sidebar1->render($attrs1); ?>
-  <?php echo $sidebar2->render($attrs2); ?>
-  <?php echo $sidebar3->render($attrs3); ?>
+  <div class="darkmenu"><div class="darkmenucontent"><?php echo $sidebar1->render($attrs1); ?></div></div>
+  <div class="darkmenu"><div class="darkmenucontent"><?php echo $sidebar2->render($attrs2); ?></div></div>
+  <div class="darkmenu"><div class="darkmenucontent"><?php echo $sidebar3->render($attrs3); ?></div></div>
  </div>
-  <div id="contentDiv"><?php echo $content ?></div>
+  <div id="contentDiv"><?php echo $content; ?></div>
   <div id="footerBox"><span class="footy">&#169; Public Regulation Commission</span></div>
 </div>
 </body>
