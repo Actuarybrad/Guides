@@ -91,10 +91,10 @@ class Menu {
 		
 		//$attrs['class'] = empty($attrs['class']) ? 'level-'.$i : $attrs['class'].' level-'.$i;
 		$attrs['id'] = empty($attrs['id']) ? '' : $attrs['id'];	
-		$cattrs = array('class' => 'hfour');
+		//$cattrs = array('class' => 'hfour');
 		//$hclass = implode(' ', $attrs);
 		//$menu = '<h4'.HTML::attributes($cattrs).'>'.$hclass.'</h4>';
-		$menu = '<h4'.HTML::attributes($cattrs).'></h4>';
+		$menu = '<h4'.HTML::attributes($attrs).'></h4><div class="darkmenu"><div class="darkmenucontent"><ul class="msd">';
 
 		foreach ($items as $key => $item)
 		{			
@@ -115,15 +115,15 @@ class Menu {
 				$class = HTML::attributes(array('class' => implode(' ', $classes)));								
 			}
 			
-			$menu .= '<ul class="msd"><li'.$class.'>'.HTML::anchor($item['url'], $item['title'], array('class' => implode(' ', $classes)));
+			$menu .= '<li'.$class.'>'.HTML::anchor($item['url'], $item['title'], array('class' => implode(' ', $classes)));
 			if ($has_children)
 			{
 				$menu .= $this->render(NULL, $item['children']);
 			}
-			$menu .= '</li></ul>';
-		}		
+			$menu .= '</li>';
+		}
 		
-		$menu .= '';
+		$menu .= '</ul></div></div>';
 		
 		$i--;
 		

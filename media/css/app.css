@@ -21,10 +21,10 @@ a{
 }
 
 #headerBox{
-  background-image:url(../images/head.jpg);
+  background-image:url(../images/homeHeadcrop1.png);
   background-repeat:no-repeat;
   background-color:transparent;
-  height:45px;
+  height:49px;
   width:950px;
   padding:0;
   margin:0;
@@ -32,15 +32,15 @@ a{
 
 #contentDiv{
   float:left;
-  width:724px;
+  width:732px;
   height:700px;
-  /* margin-top:36px; */
+  margin-top:8px;
   margin-left:10px;
 }
 /*-------startpage-------*/
 
 #startPage {
-  margin:26px 0px 0px 10px; 
+  margin:16px 0px 0px 10px; 
   text-align:justify; 
   padding: 0px 0px 0px 0px;  
 }
@@ -105,7 +105,7 @@ span.services{
 }
 
 #startPage p.last{
-  margin:2px 0px 24px 3px;
+  margin:2px 0px 35px 3px;
   text-align:justify;
 } 
 
@@ -124,56 +124,55 @@ ul.linkList li{
 
 #leftSidebar{
   float:left;
-  width:204px;
+  width:205px;
 }
 
-h4.hfour
-{
-	background-image: url(../images/htext.png);
-	background-repeat: no-repeat;
-	font-weight: 500;
-	font-size: 18px;
-	height:24px;
-	letter-spacing:-1px;
-	font-family: Arial,Helvetica,sans-serif;
-	padding:0px 0px 1px 0px;
-	margin:2px 10px 3px 3px;
-	/* padding-bottom: 2px; */
-	display: block;
-	/* color:#656178; */
-	/*color:#6d6981;*/
-	/*color:#595668;*/
-	/*color:#9D9CB4;*/
-	/*color:#8886A4;*/
-	/*color:#656385;*/
-	/*color:#656178;*/
-	/*color:#6B6781;*/
-	color:#595668;
-	/*color:#747089;*/
-	/* border-bottom:2px solid #656178; */
-   	/*border-bottom:2px solid #6d6981;*/
-   	/*border-bottom:1px solid #595668;*/
-   	/*border-bottom:1px solid #918FAB;*/
-   	/*border-bottom:1px solid #6A6789;*/
-   /*	border-bottom:2px solid #716C88;*/
-   	/*border-bottom:1px solid #615e71;*/
+#HOguide{
+  background-image:url(../images/HOguide.jpg);
+  background-repeat:no-repeat;
+  background-color:#FFF;
+  height:25px;
+  width:205px;
+  margin-top:40px;
+  margin-bottom:1px;
+}
+
+#Resources{
+  background-image:url(../images/Resources.jpg);
+  background-repeat:no-repeat;
+  background-color:#FFF;
+  height:25px;
+  width:205px;
+  margin-top:40px;
+  margin-bottom:1px;
+}
+
+#Guides{
+  background-image:url(../images/Guides.jpg);
+  background-repeat:no-repeat;
+  background-color:#FFF;
+  height:25px;
+  width:205px;
+  margin-top:40px;
+  margin-bottom:1px;
 }
 
 #leftSidebar .darkmenu
 {
-	padding: 0;
-	padding-bottom: 6px;
-	background-image: url(../images/bottom6.png);
+	/*padding: 0;*/
+	/*padding: 1px 2px 4px 2px;*/
+	padding-bottom: 3px;
+	background-image: url(../images/linkbottom.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
 	/*background-color: transparent;*/
 	text-decoration: none;
-	margin:30px 0px 0px 0px;
+	/*margin:1px 0px 0px 0px;*/
 }
 
 ul.msd a{
   display:block;
-  padding:0px 0px 0px 11px;
+  padding:0px 0px 0px 12px;
   font-family:Arial,sans-serif,Verdana,Arial,Helvetica,sans-serif;
   font-size:12px;
   font-weight:500;
@@ -181,16 +180,16 @@ ul.msd a{
   /* color:#403D4E; */
   /* color:#4A4B53; */
  /*  color:#302e3b; */
-  /* color:#3d3b49; */
   /* color:#2e2c36; */
   /*color:#484458;*/
  /* color:#3A3748;*/
   /*color:#514E69;*/
   /*color:#4D4A64;*/
   /*color:#2F2F35;*/
-  color:#2F3035;
   /*color:#530045;*/
   /*color:#EBEAEc;*/
+  /*color:#2F3035;*/
+  color:#3d3b49;
   }
 
 #leftSidebar .darkmenu a:hover
@@ -203,25 +202,26 @@ ul.msd a{
 
 #leftSidebar .darkmenucontent
 {
-	background-image: url(../images/top6.png);
+	background-image: url(../images/linktop.png);
 	background-repeat: no-repeat;
 	background-position: top;
 	/*background-color: transparent;*/
-	padding: 14px 14px 10px 12px;
+	padding: 4px 3px 4px 3px;
 }
 
 li.bullet{
-  background:transparent url(../images/right-gray.png) no-repeat 6px 50%;
-  /*margin-top:1px;*/
-}
+ background:transparent url(../images/right-gray.png) no-repeat 7px 9px;
+ padding-top:1px;
+ padding-bottom:1px;
+ }
 
 a.active{
   color:#5E004E;
 }
 
 li.active{
-  background:transparent url(../images/linkarrow.gif) no-repeat 97% 58%;
-  padding-right:12px;
+  background:transparent url(../images/linkarrow.gif) no-repeat 98% 58%;
+  padding-right:11px;
   font-style:oblique;
   text-align:right;
 }
@@ -346,7 +346,7 @@ span.footy{
 
 .x-form fieldset{
   border-color:#E7E7E7;
-/* border:6px solid #f1f1f3; */
+ /*border:6px solid #f3f2f5;*/
 /* border:none; */
 }
 

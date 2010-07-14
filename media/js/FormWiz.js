@@ -2,7 +2,7 @@ Ext.ns('App');
 
 App.FormWiz = Ext.extend(Ext.form.FormPanel, {
     border: false,
-    bodyStyle: 'padding:15px 30px 0px 20px',
+    bodyStyle: 'padding:20px 30px 0px 20px',
     id: 'formCard',
     layout: 'card',
     activeItem: 0,
@@ -386,7 +386,7 @@ App.radioWiz = Ext.extend(Ext.Panel, {
   defaults: {                    
     border: false
   },
-  bodyStyle: 'border:6px solid #f1f1f3; padding:25px 32px 8px 34px',
+  bodyStyle: 'border:6px solid #f1f1f3; padding:20px 22px 8px 30px',
   initComponent: function() {
   this.items = [{
     xtype: 'box',
