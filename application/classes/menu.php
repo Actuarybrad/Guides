@@ -94,7 +94,7 @@ class Menu {
 		//$cattrs = array('class' => 'hfour');
 		//$hclass = implode(' ', $attrs);
 		//$menu = '<h4'.HTML::attributes($cattrs).'>'.$hclass.'</h4>';
-		$menu = '<h4'.HTML::attributes($attrs).'></h4><div class="darkmenu"><div class="darkmenucontent"><ul class="msd">';
+		$menu = '<div id="'.$attrs['id'].'Bottom"><div id="'.$attrs['id'].'Top"><h4'.HTML::attributes($attrs).'>'.$attrs['id'].'</h4><ul class="msd">';
 
 		foreach ($items as $key => $item)
 		{			
